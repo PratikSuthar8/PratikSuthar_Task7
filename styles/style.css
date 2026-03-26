@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: ubuntu;
+}
+
+.container {
+	display: flex;
+	height: 100vh;
+}
+
+.left {
+	flex: 1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #e6f2ff;
+}
+
+.left img {
+	width: 100%;
+}
+
+.right {
+	flex: 1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #f5f5f5;
+}
+
+.form-box {
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+	width: 50%;
+}
+
+/* .form-box h1 {
+	font-size: 28px;
+} */
+
+.form-box p {
+	font-size: 20px;
+	color: gray;
+}
+
+.input-group {
+	display: flex;
+	flex-direction: column;
+	gap: 5px;
+}
+
+.input-group label {
+	font-size: 15px;
+	color: gray;
+}
+
+.input-group input {
+	padding: 10px;
+	border-radius: 10px;
+	height: 60px;
+	border: 1px solid #ccc;
+}
+.input-group input::placeholder {
+	font-size: larger;
+}
+
+.forgot {
+	display: flex;
+	justify-content: flex-end;
+}
+.forgot a:hover {
+	text-decoration: underline;
+}
+
+.forgot a {
+	font-size: 15px;
+	text-decoration: none;
+	color: black;
+}
+
+.btn {
+	height: 40px;
+	font-size: 20px;
+	border-radius: 10px;
+	border: none;
+	background-color: #007bff;
+	color: white;
+	cursor: pointer;
+}
+
+.register {
+	text-align: center;
+	font-size: 15px;
+}
+
+.register a {
+	color: blue;
+	text-decoration: none;
+}
+.register a:hover {
+	text-decoration: underline;
+}
